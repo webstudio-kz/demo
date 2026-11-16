@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Анна, мастер маникюра — запись онлайн</title>
+<meta name="description" content="Анна, мастер маникюра, Москва, м. Динамо. Цены, мастера, запись онлайн.">
+<meta property="og:title" content="Анна, мастер маникюра — запись онлайн">
+<meta property="og:description" content="Маникюр, который держится 4 недели">
+<meta property="og:image" content="https://picsum.photos/400?1">
+<meta property="og:type" content="website">
+<style>
+  /* ===== ЦВЕТА: меняй только здесь ===== */
+  :root { --accent:#d6336c; --bg:#0b0b0d; --text:#f2f2f2; --muted:#a3a3ad; --card:#17171b; --line:#26262c; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;padding-bottom:76px}
+  .wrap{max-width:720px;margin:0 auto;padding:0 16px}
+  .promo{background:var(--accent);color:#fff;text-align:center;padding:8px 12px;font-weight:600;font-size:15px}
+  header{padding:30px 0 14px;text-align:center}
+  h1{font-size:clamp(28px,6vw,40px);line-height:1.15}
+  .sub{color:var(--muted);margin:8px 0 18px;font-size:17px}
+  .btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;padding:13px 24px;border-radius:12px;font-weight:600;font-size:17px}
+  .btn.wa{background:#25d366;color:#06240f}
+  .btn.ghost{background:var(--card);border:1px solid var(--line)}
+  section{padding:14px 0}
+  h2{font-size:22px;margin-bottom:10px}
+  .grid{display:grid;gap:10px}
+  .card{background:var(--card);border-radius:14px;padding:14px 16px;border:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .nm{display:block}
+  .dur{display:block;color:var(--muted);font-size:13px}
+  .price{font-weight:700;color:var(--accent);white-space:nowrap}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+  .chip{padding:9px 13px;border-radius:10px;border:1px solid #2c2c33;background:var(--card);color:var(--text);font-size:15px;cursor:pointer}
+  .chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .masters{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+  .master{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;text-align:center}
+  .av{width:72px;height:72px;border-radius:50%;margin:0 auto 8px;object-fit:cover;display:flex;align-items:center;justify-content:center;font-size:28px;font-weight:700;background:linear-gradient(135deg,var(--accent),#333);color:#fff}
+  .master b{display:block}
+  .master span{color:var(--muted);font-size:14px}
+  .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+  .gallery img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px;background:#222}
+  .review{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:8px}
+  .review b{display:block;margin-bottom:4px}
+  form{display:grid;gap:10px}
+  label{color:var(--muted);font-size:14px}
+  select,input{width:100%;padding:12px;border-radius:10px;border:1px solid #2c2c33;background:var(--card);color:var(--text);font-size:16px}
+  .note{color:var(--muted);font-size:14px}
+  button.btn{border:0;cursor:pointer;width:100%}
+  details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:8px}
+  summary{cursor:pointer;font-weight:600}
+  details p{margin-top:8px;color:var(--muted)}
+  .contacts p{margin-bottom:8px}
+  .contacts a{color:var(--accent)}
+  .map{width:100%;height:240px;border:0;border-radius:14px;margin-top:8px;filter:invert(.9) hue-rotate(180deg)}
+  footer{text-align:center;color:var(--muted);font-size:14px;padding:16px 0 28px}
+  .bar{position:fixed;left:0;right:0;bottom:0;display:flex;gap:8px;padding:10px 12px;background:rgba(11,11,13,.95);border-top:1px solid var(--line);z-index:9}
+  .bar a{flex:1;text-align:center;padding:12px 6px;border-radius:10px;font-weight:600;text-decoration:none;color:#fff;background:var(--card);border:1px solid var(--line)}
+  .bar a.wa{background:#25d366;color:#06240f;border-color:#25d366}
+  .bar a.main{background:var(--accent);border-color:var(--accent)}
+  @media(min-width:760px){.bar{display:none}body{padding-bottom:0}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header>
+    <h1>Маникюр, который держится 4 недели</h1>
+    <p class="sub">Анна, мастер маникюра · Москва, м. Динамо</p>
+    <div class="btns">
+      <a class="btn" href="#book">Записаться</a>
+      <a class="btn wa" href="https://wa.me/79990000000">WhatsApp</a>
+      <a class="btn ghost" href="https://t.me/xxhanttflaer">Telegram</a>
+    </div>
+  </header>
+
+  <section><h2>Услуги и цены</h2><div class="grid" id="svc"><div class="card" data-c=""><div><span class="nm">Маникюр + покрытие</span></div><span class="price">2 000 ₽</span></div><div class="card" data-c=""><div><span class="nm">Педикюр</span></div><span class="price">2 500 ₽</span></div><div class="card" data-c=""><div><span class="nm">Наращивание</span></div><span class="price">3 500 ₽</span></div></div></section>
+  
+
+  <section>
+    <h2>Работы</h2>
+    <div class="gallery">
+      <img src="https://picsum.photos/400?1" alt="Работа 1" loading="lazy">
+      <img src="https://picsum.photos/400?2" alt="Работа 2" loading="lazy">
+      <img src="https://picsum.photos/400?3" alt="Работа 3" loading="lazy">
+    </div>
+  </section>
+
+  
+  <section id=book><h2>Записаться онлайн</h2>
+    <form id="bf">
+      <label>Услуга</label><select name="service" required><option data-dur="0">Маникюр + покрытие — 2 000 ₽</option><option data-dur="0">Педикюр — 2 500 ₽</option><option data-dur="0">Наращивание — 3 500 ₽</option></select>
+      
+      <label>День</label><div class="chips" id="days"></div>
+      <label>Время</label><div class="chips" id="times"></div>
+      <input type="hidden" name="date" id="date"><input type="hidden" name="time" id="time">
+      <input name="name" placeholder="Ваше имя" required autocomplete="name">
+      <input name="phone" type="tel" placeholder="Телефон" required autocomplete="tel">
+      <button class="btn" type="submit">Записаться через WhatsApp</button>
+      <p class="note" id="msg">Заявка откроется в WhatsApp, мы подтвердим запись там.</p>
+    </form></section>
+  
+
+  <section class="contacts">
+    <h2>Контакты</h2>
+    <p>📍 Москва, ул. Примерная, 1</p>
+    <p>🕐 Ежедневно 10:00–20:00</p>
+    <p>📞 <a href="tel:+79990000000">+7 999 000-00-00</a></p>
+    <p>💬 <a href="https://wa.me/79990000000">WhatsApp</a> · ✈️ <a href="https://t.me/xxhanttflaer">Telegram</a></p>
+    <iframe class="map" loading="lazy" src="https://www.google.com/maps?q=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D1%83%D0%BB.%20%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%BD%D0%B0%D1%8F%2C%201%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D0%BC.%20%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE&output=embed"></iframe><p style="margin-top:8px"><a href="https://www.google.com/maps/search/?api=1&query=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D1%83%D0%BB.%20%D0%9F%D1%80%D0%B8%D0%BC%D0%B5%D1%80%D0%BD%D0%B0%D1%8F%2C%201%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D0%BC.%20%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE">Проложить маршрут</a></p>
+  </section>
+
+  <footer>© Анна, мастер маникюра, 2026</footer>
+</div>
+
+<div class="bar">
+  <a href="tel:+79990000000">Позвонить</a>
+  <a class="wa" href="https://wa.me/79990000000">WhatsApp</a>
+  <a class="main" href="#book">Записаться</a>
+</div>
+
+<script>
+(function () {
+  // вкладки категорий
+  var tabs = document.getElementById("tabs");
+  if (tabs) {
+    tabs.addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return;
+      Array.prototype.forEach.call(tabs.children, function (c) { c.classList.remove("on"); });
+      b.classList.add("on");
+      var cat = b.getAttribute("data-c");
+      Array.prototype.forEach.call(document.querySelectorAll("#svc .card"), function (c) {
+        c.style.display = (cat === "all" || c.getAttribute("data-c") === cat) ? "" : "none";
+      });
+    });
+  }
+
+  // запись со слотами
+  var form = document.getElementById("bf");
+  if (!form) return;
+  var OPEN = "10:00", CLOSE = "21:00", SLOT = 60;
+  var WD = ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"];
+  var days = document.getElementById("days"), times = document.getElementById("times");
+  var fDate = document.getElementById("date"), fTime = document.getElementById("time");
+  var msg = document.getElementById("msg"), svc = form.elements["service"], curDay = null;
+  function mins(s) { var p = s.split(":"); return +p[0] * 60 + +p[1]; }
+  function pad(n) { return (n < 10 ? "0" : "") + n; }
+  function dur() { var o = svc.options[svc.selectedIndex]; return +(o.getAttribute("data-dur") || SLOT); }
+  function chip(text, onclick, box) {
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "chip"; b.textContent = text;
+    b.onclick = function () {
+      Array.prototype.forEach.call(box.children, function (c) { c.classList.remove("on"); });
+      b.classList.add("on"); onclick();
+    };
+    box.appendChild(b);
+  }
+  function showTimes() {
+    times.innerHTML = ""; fTime.value = "";
+    if (!curDay) return;
+    var now = new Date(), isToday = curDay.toDateString() === now.toDateString();
+    var nowM = now.getHours() * 60 + now.getMinutes() + 30, n = 0, d = dur();
+    for (var m = mins(OPEN); m + d <= mins(CLOSE); m += SLOT) {
+      if (isToday && m < nowM) continue;
+      (function (t) { chip(t, function () { fTime.value = t; }, times); })(pad(Math.floor(m / 60)) + ":" + pad(m % 60));
+      n++;
+    }
+    if (!n) times.textContent = "На этот день свободных слотов нет";
+  }
+  svc.addEventListener("change", showTimes);
+  for (var i = 0; i < 7; i++) {
+    (function (d) {
+      var label = WD[d.getDay()] + " " + pad(d.getDate()) + "." + pad(d.getMonth() + 1);
+      chip(label, function () { fDate.value = label; curDay = d; showTimes(); }, days);
+    })(new Date(Date.now() + i * 86400000));
+  }
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (!fDate.value || !fTime.value) { msg.textContent = "Выберите день и время"; return; }
+    var f = form.elements, master = f["master"] ? ", мастер: " + f["master"].value : "";
+    var text = "Здравствуйте! Хочу записаться: " + f["service"].value + master + ", " + fDate.value + " в " + fTime.value +
+      ". Меня зовут " + f["name"].value + ", телефон " + f["phone"].value + ".";
+    msg.textContent = "Открываем WhatsApp — нажмите «Отправить» в чате.";
+    window.open("https://wa.me/79990000000?text=" + encodeURIComponent(text), "_blank");
+  });
+})();
+</script>
+</body>
+</html>
